@@ -1,4 +1,4 @@
-setVideoBackground = Id => {
+let setVideoBackground = Id => {
     let iframe = document.createElement('div');
     iframe.id = 'player';
     document.getElementsByClassName('da-appMount')[0].append(iframe);
